@@ -8,14 +8,57 @@ whoami: to check current user in linux machine
 
 pwd: to check current path directory you are working in
 
+create a file :
+cat:copy standard input to standard output
+
+touch: create an empty file
+
+vim:a programmer text editor
+
+
+
+mkdir: to create a directory
+
+cd : change directory
+
+pwd: print working directory
+
+ls: list 
+
+ls -a : to see hidden file
+cp: copy file
+mv: move file
+
+rm dir: remove directory for empty directory
+rmdir-p: remove both parent and child directory
+rmdir-pv: remove both parent and child directory with content
+rm-rf: remove even non empty file and directory
+rm-r: remove empty directories
+
+tar: tar is an archiver used to combine multiple files into one
+gzip:compression tool used to reduce the size of the file
+
+wget: is nonn intreacted netwrok download
+
+chmod :used to change the access mode of a file
+chown : change the owner of file directory
+chgrep : change the group of file or dir
+
+
+
+
 git init:	Initialize a local Git repository
+
 git clone: ssh://git@github.com/[username]/[repository-name].git	Create a local copy of a remote repository
 
 git status:	Check status
 
 git add [file-name.txt]	Add a file to the staging area
+
 git add -A	Add all new and changed files to the staging area
+
 git commit -m "[commit message]"	Commit changes
+
 git rm -r [file-name.txt]	Remove a file (or folder)
 
 Branching & Merging
